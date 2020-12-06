@@ -1,1 +1,16 @@
-@font-face{font-family:'Burbank Big Rg Bk';src:url(../../assets/fonts/BurbankBigRegular-Black.woff2) format('woff2'),url(../../assets/fonts/BurbankBigRegular-Black.woff) format('woff');font-weight:900;font-style:normal}
+@font-face {
+    font-family: 'Burbank Big Rg Bk';
+    src: url(../../assets/fonts/BurbankBigRegular-Black.woff2) format('woff2'), url(../../assets/fonts/BurbankBigRegular-Black.woff) format('woff');
+    font-weight: 900;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'BurbankBigCondensed';
+    src: url(../../assets/fonts/BurbankBigCondensed.otf)format('opentype');
+}
+
+@font-face {
+    font-family: 'GN-KillGothic-U-KanaNB';
+    src: url(../../assets/fonts/GN-KillGothic-U-KanaNB.ttf)format('truetype');
+}
