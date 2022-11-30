@@ -1,13 +1,21 @@
+h1 {
+    color: #FF8C00;
+    background: -webkit-linear-gradient(0deg, #b8a9fe, #fff, #b8a9fe);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+:root {
+    --main-color: #00000000;
+}
+
+
 @font-face {
     font-family: 'BurbankBigCondensed';
-    src: url(assets/fonts/BurbankBigCondensed.otf)format('opentype');
+    src: url(../../assets/fonts/BurbankBigCondensed.otf)format('opentype');
 }
 
 @font-face {
     font-family: 'GN-KillGothic-U-KanaNB';
-    src: url(assets/fonts/GN-KillGothic-U-KanaNB.ttf)format('truetype');
-}
-
-* {
-    font-family: 'BurbankBigCondensed', 'NIS_JYAU', 'GN-KillGothic-U-KanaNB', 'sans-serif ';
+    src: url(../../assets/fonts/GN-KillGothic-U-KanaNB.ttf)format('truetype');
 }

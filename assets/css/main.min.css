@@ -55,6 +55,7 @@ header {
     margin-left: -40px;
     margin-right: 0;
     margin-bottom: 0;
+    background-color: var(--main-color);
     height: 18%;
     width: 200%;
     transform: rotate(1.5deg);
@@ -121,13 +122,6 @@ footer {
 }
 
 :root {
-    --main-color: #000000;
+    --main-color: #0C0713;
     --main-color-hover: #2f1f43
-}
-
-h1{
-    color: #FF8C00;
-    background: -webkit-linear-gradient(0deg, #b8a9fe, #fff, #b8a9fe);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
