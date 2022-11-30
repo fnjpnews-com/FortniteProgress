@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'BurbankBigCondensed';
+    src: url(assets/fonts/BurbankBigCondensed.otf)format('opentype');
+}
+
+@font-face {
+    font-family: 'GN-KillGothic-U-KanaNB';
+    src: url(assets/fonts/GN-KillGothic-U-KanaNB.ttf)format('truetype');
+}
+
+* {
+    font-family: 'BurbankBigCondensed', 'NIS_JYAU', 'GN-KillGothic-U-KanaNB', 'sans-serif ';
+}
