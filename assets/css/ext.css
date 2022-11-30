@@ -1,12 +1,14 @@
 h1 {
     color: #FF8C00;
     background: -webkit-linear-gradient(0deg, #b8a9fe, #fff, #b8a9fe);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-:root {
-    --main-color: #00000000;
+footer,
+header {
+    display: none;
 }
 
 
@@ -18,4 +20,12 @@ h1 {
 @font-face {
     font-family: 'GN-KillGothic-U-KanaNB';
     src: url(../../assets/fonts/GN-KillGothic-U-KanaNB.ttf)format('truetype');
+}
+
+
+
+body {
+    font-family: 'BurbankBigCondensed', 'GN-KillGothic-U-KanaNB' !important;
+    background-size: cover;
+    background-position: center;
 }
